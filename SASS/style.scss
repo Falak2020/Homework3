@@ -1,0 +1,15 @@
+//variables:
+//Colores
+$body-color:#f4f4f4;
+//Fonts
+$body-font:Arial,sans-serif;
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin:0;
+    padding:0;
+    background-color: $body-color;
+    font: $body-font;
+    height: 1.6;
+}
