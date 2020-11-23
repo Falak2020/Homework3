@@ -11,6 +11,16 @@ html, body {
   height: 1.6;
 }
 
+.h1-style {
+  margin-top: 3rem;
+  color: darkblue;
+}
+
+.border-botomn {
+  border-bottom: 3px solid darkblue;
+  margin-top: 1rem;
+}
+
 form {
   background-color: #ffffff;
   border-radius: 20px;
@@ -18,9 +28,5 @@ form {
 
 form .bg-color {
   background-color: #f4f4f4;
-}
-
-.h1-style {
-  margin-bottom: 3rem;
 }
 /*# sourceMappingURL=style.css.map */

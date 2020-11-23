@@ -2,6 +2,7 @@
 //Colores
 $body-color:#f4f4f4;
 $form-color:#ffffff;
+$h1-color:darkblue;
 //Fonts
 $body-font:Arial,sans-serif;
 *{
@@ -14,6 +15,14 @@ html,body{
     font: $body-font;
     height: 1.6;
 }
+.h1-style{
+    margin-top: 3rem;
+    color: $h1-color;
+ }
+ .border-botomn{
+     border-bottom: 3px solid $h1-color;
+     margin-top: 1rem;
+ }
 form{
     background-color: $form-color;
     border-radius: 20px;
@@ -22,6 +31,4 @@ form{
     }   
 }
 
-.h1-style{
-    margin-bottom: 3rem;
-}
+
