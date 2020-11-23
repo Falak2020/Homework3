@@ -2,7 +2,7 @@
 //Colores
 $body-color:#f4f4f4;
 $form-color:#ffffff;
-$h1-color:darkblue;
+$h1-color:#0277bd;
 //Fonts
 $body-font:Arial,sans-serif;
 *{
@@ -23,6 +23,7 @@ html,body{
  .border-botomn{
      border-bottom: 3px solid $h1-color;
      margin-top: 1rem;
+     margin-bottom: 3rem;
  }
 form{
     background-color: $form-color;

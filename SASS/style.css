@@ -13,13 +13,14 @@ html, body {
 
 .h1-style {
   margin-top: 3rem;
-  color: darkblue;
+  color: #0277bd;
   font-size: 2rem;
 }
 
 .border-botomn {
-  border-bottom: 3px solid darkblue;
+  border-bottom: 3px solid #0277bd;
   margin-top: 1rem;
+  margin-bottom: 3rem;
 }
 
 form {
@@ -32,7 +33,7 @@ form .bg-color {
 }
 
 form .btn-bg {
-  background-color: darkblue;
+  background-color: #0277bd;
   color: #ffffff;
   -webkit-box-shadow: 4px 12px 12px gray;
           box-shadow: 4px 12px 12px gray;
