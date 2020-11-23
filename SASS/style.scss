@@ -1,6 +1,7 @@
 //variables:
 //Colores
 $body-color:#f4f4f4;
+$form-color:#ffffff;
 //Fonts
 $body-font:Arial,sans-serif;
 *{
@@ -12,4 +13,15 @@ html,body{
     background-color: $body-color;
     font: $body-font;
     height: 1.6;
+}
+form{
+    background-color: $form-color;
+    border-radius: 20px;
+    .bg-color{
+        background-color: $body-color;
+    }   
+}
+
+.h1-style{
+    margin-bottom: 3rem;
 }

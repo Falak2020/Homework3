@@ -10,4 +10,17 @@ html, body {
   font: Arial, sans-serif;
   height: 1.6;
 }
+
+form {
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+form .bg-color {
+  background-color: #f4f4f4;
+}
+
+.h1-style {
+  margin-bottom: 3rem;
+}
 /*# sourceMappingURL=style.css.map */
