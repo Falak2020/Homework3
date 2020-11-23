@@ -18,6 +18,7 @@ html,body{
 .h1-style{
     margin-top: 3rem;
     color: $h1-color;
+    font-size: 2rem;
  }
  .border-botomn{
      border-bottom: 3px solid $h1-color;
@@ -25,10 +26,29 @@ html,body{
  }
 form{
     background-color: $form-color;
-    border-radius: 20px;
     .bg-color{
-        background-color: $body-color;
-    }   
-}
+        background-color:#dcd3d3;
+        border-bottom:1px solid #a8a4a4 ;
+    }  
+    .btn-bg{
+        background-color: $h1-color;
+        color: #ffffff;
+        box-shadow: 4px 12px 12px gray;
 
+    } 
+    .btn-bg:hover{
+        color: #ffffff;
+        box-shadow: 3px 2px 2px gray;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+         max-width: 720px;
+     }
+}
+@media (min-width:992px) {
+    .container {
+         max-width: 960px;
+     }
+}
 

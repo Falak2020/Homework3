@@ -14,6 +14,7 @@ html, body {
 .h1-style {
   margin-top: 3rem;
   color: darkblue;
+  font-size: 2rem;
 }
 
 .border-botomn {
@@ -23,10 +24,35 @@ html, body {
 
 form {
   background-color: #ffffff;
-  border-radius: 20px;
 }
 
 form .bg-color {
-  background-color: #f4f4f4;
+  background-color: #dcd3d3;
+  border-bottom: 1px solid #a8a4a4;
+}
+
+form .btn-bg {
+  background-color: darkblue;
+  color: #ffffff;
+  -webkit-box-shadow: 4px 12px 12px gray;
+          box-shadow: 4px 12px 12px gray;
+}
+
+form .btn-bg:hover {
+  color: #ffffff;
+  -webkit-box-shadow: 3px 2px 2px gray;
+          box-shadow: 3px 2px 2px gray;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
