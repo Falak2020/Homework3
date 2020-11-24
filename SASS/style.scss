@@ -1,10 +1,5 @@
-//variables:
-//Colores
-$body-color:#f4f4f4;
-$form-color:#ffffff;
-$h1-color:#0277bd;
-//Fonts
-$body-font:Arial,sans-serif;
+@import "./variables";
+@import"./mixin/breakpoints";
 *{
     box-sizing: border-box;
 }
@@ -36,13 +31,29 @@ form{
         color: #ffffff;
         box-shadow: 4px 12px 12px gray;
 
-    } 
-    .btn-bg:hover{
-        color: #ffffff;
-        box-shadow: 3px 2px 2px gray;
+        &:hover{
+            color: #ffffff;
+            background-color:darken($h1-color,20%) ;
+            box-shadow: 3px 2px 2px gray;
+        }
     }
 }
-@media (min-width: 768px) {
+.container {
+   
+    @include md {
+        max-width: 720px;
+    }
+    @include lg {
+        max-width: 960px;
+    }
+    @include xl {
+        max-width: 1140px;
+    }
+    @include xxl {
+        max-width: 1320px;
+    }
+}
+/*@media (min-width: 768px) {
     .container {
          max-width: 720px;
      }
@@ -51,5 +62,5 @@ form{
     .container {
          max-width: 960px;
      }
-}
+}*/
 
