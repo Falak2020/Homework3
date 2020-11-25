@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+
 //Variables:
 //Colores
 $body-color:#f4f4f4;
 $form-color:#ffffff;
-$h1-color:#0277bd;
+$h1-color:#074d76;
+$first-row-color:#ADD8E6;
+$border-botom-color:#a8a4a4;
+$btn-text-color:#ffffff;
+$shadow-color:#888888;
+$btn-color:#0781c7;
 //Fonts
-$body-font:Arial,sans-serif;
+$body-font:'Roboto', sans-serif;;
+//Break points
+$breakpoint-md:     768px;
+$breakpoint-lg:     992px;
+$breakpoint-xl:     1200px;
+$breakpoint-xxl:    1400px;

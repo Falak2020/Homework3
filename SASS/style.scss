@@ -3,12 +3,15 @@
 *{
     box-sizing: border-box;
 }
+
 html,body{
     margin:0;
     padding:0;
     background-color: $body-color;
     font: $body-font;
     height: 1.6;
+    background-image: url("../images/Blue\ Gradient\ Background.jpg");
+    background-size: cover;
 }
 .h1-style{
     margin-top: 3rem;
@@ -23,20 +26,28 @@ html,body{
 form{
     background-color: $form-color;
     .bg-color{
-        background-color:#dcd3d3;
-        border-bottom:1px solid #a8a4a4 ;
+        background-color:$first-row-color;
+        border-bottom:1px solid $border-botom-color;
     }  
     .btn-bg{
-        background-color: $h1-color;
-        color: #ffffff;
-        box-shadow: 4px 12px 12px gray;
+        background-color: $btn-color;
+        color:$btn-text-color;
+        box-shadow: 6px 8px 12px $shadow-color;
+        padding: 1rem 2rem;;
 
         &:hover{
-            color: #ffffff;
-            background-color:darken($h1-color,20%) ;
-            box-shadow: 3px 2px 2px gray;
+            color:$btn-text-color;
+            background-color:darken($btn-color,20%) ;
+            box-shadow: 3px 2px 2px $shadow-color;
         }
     }
+}
+.position-parent{
+    position: relative;
+}
+.position-child{
+    position: absolute;
+    bottom: 0;
 }
 .container {
    
