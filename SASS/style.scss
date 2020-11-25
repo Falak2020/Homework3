@@ -9,6 +9,7 @@ html,body{
     padding:0;
     background-color: $body-color;
     font: $body-font;
+    font-size:$font-size;
     height: 1.6;
     background-image: url("../images/Blue\ Gradient\ Background.jpg");
     background-size: cover;
@@ -17,6 +18,10 @@ html,body{
     margin-top: 3rem;
     color: $h1-color;
     font-size: 2rem;
+ }
+ .h2-style{
+     font-size: 1.5rem;
+     color: $h1-color;
  }
  .border-botomn{
      border-bottom: 3px solid $h1-color;
@@ -42,13 +47,7 @@ form{
         }
     }
 }
-.position-parent{
-    position: relative;
-}
-.position-child{
-    position: absolute;
-    bottom: 0;
-}
+
 .container {
    
     @include md {
@@ -64,14 +63,4 @@ form{
         max-width: 1320px;
     }
 }
-/*@media (min-width: 768px) {
-    .container {
-         max-width: 720px;
-     }
-}
-@media (min-width:992px) {
-    .container {
-         max-width: 960px;
-     }
-}*/
 
