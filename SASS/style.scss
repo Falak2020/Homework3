@@ -11,9 +11,11 @@ html,body{
     font: $body-font;
     font-size:$font-size;
     height: 1.6;
-    background-image: url("../images/Blue\ Gradient\ Background.jpg");
+    background-image: url("../images/images.jpeg");
     background-size: cover;
+    
 }
+
 .h1-style{
     margin-top: 3rem;
     color: $h1-color;
@@ -21,13 +23,14 @@ html,body{
  }
  .h2-style{
      font-size: 1.5rem;
-     color: $h1-color;
+     color: $h2-color;
  }
  .border-botomn{
      border-bottom: 3px solid $h1-color;
      margin-top: 1rem;
      margin-bottom: 3rem;
  }
+
 form{
     background-color: $form-color;
     .bg-color{
