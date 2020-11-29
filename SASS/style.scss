@@ -12,6 +12,9 @@ html,body{
     font-size:$font-size;
     height: 1.6; 
 } 
+.vh{
+    height:none;
+}
 .h1-style{
     margin-top: 3rem;
     border-bottom: 3px solid $h1-color;
@@ -51,6 +54,9 @@ form{
         i{
             font-size: 4rem;
         }
+    }
+    .vh{
+        height: 100vh;
     }
     form{
         .h2-style{
