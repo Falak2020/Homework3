@@ -1,4 +1,5 @@
 @import "./variables";
+@import"./breakpoints";
 *{
     box-sizing: border-box;
 }
@@ -9,38 +10,63 @@ html,body{
     background-color: $body-color;
     font: $body-font;
     font-size:$font-size;
-    height: 1.6;   
-}
-
+    height: 1.6; 
+} 
 .h1-style{
     margin-top: 3rem;
     border-bottom: 3px solid $h1-color;
     color: $h1-color;
     font-size: 2rem;
- }
+     i{
+         font-size: 3rem;
+         margin-right: 1rem;
+     }
+}
 form{
     background-color: $form-color;
-    .bg-color{
-        background-color:$first-row-color;
-        border-bottom:1px solid $border-botom-color;
-    }  
-    .h2-style{
-        font-size: 1.5rem;
-        color: $h2-color;
-    }
-    .btn-bg{
-        background-color: $btn-color;
-        color:$btn-text-color;
-        box-shadow: 6px 8px 12px $shadow-color;
-        padding: 1rem 2rem;;
-
-        &:hover{
+        .bg-color{
+            background-color:$first-row-color;
+            border-bottom:1px solid $border-botom-color;
+        }  
+        .h2-style{
+            font-size: 1.3rem;
+            color: $h2-color;
+        }
+        .btn-bg{
+            background-color: $btn-color;
             color:$btn-text-color;
-            background-color:darken($btn-color,20%) ;
-            box-shadow: 3px 2px 2px $shadow-color;
+            box-shadow: 6px 8px 12px $shadow-color;
+            padding: 1rem 2rem;;
+    
+            &:hover{
+                color:$btn-text-color;
+                background-color:darken($btn-color,20%) ;
+                box-shadow: 3px 2px 2px $shadow-color;
+            }
+        }
+    } 
+@include md {
+    .h1-style{
+        font-size: 3rem;
+        i{
+            font-size: 4rem;
         }
     }
+    form{
+        .h2-style{
+            font-size: 2rem;
+    }
+    }
 }
+@include lg {
+ }
+@include xl {
+}
+@include xxl {
+}   
+
+
+
 
 
 
