@@ -39,8 +39,8 @@ form{
             background-color: $btn-color;
             color:$btn-text-color;
             box-shadow: 6px 8px 12px $shadow-color;
-            padding: 1rem 2rem;;
-    
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
             &:hover{
                 color:$btn-text-color;
                 background-color:darken($btn-color,20%) ;
